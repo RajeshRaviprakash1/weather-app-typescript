@@ -1,9 +1,9 @@
 import React, { Component, useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { WeatherCard } from './components/WeatherCard';
+import { WeatherCard } from './components/WeatherCard/WeatherCard';
 import jsonData from './sampleData.json';
-import { Dropdown } from './components/Dropdown';
+import { Dropdown } from './components/Dropdown/Dropdown';
 import { Console } from 'console';
 import { INewWeather } from './models/INewWeather';
 

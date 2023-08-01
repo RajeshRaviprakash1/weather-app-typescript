@@ -1,0 +1,43 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #2f1d59;
+    border-radius: 10px;
+  }
+  
+  .flex-container > div {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .nextDayTemp {
+    font-size: 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+  }
+  
+  .nextDay {
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+  }
+  
+  .nextDayImg {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+  }
+  
+  

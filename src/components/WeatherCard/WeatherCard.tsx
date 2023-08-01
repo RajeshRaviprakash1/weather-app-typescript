@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import RainLogo from '../rainCloud.png'
-import { Day } from '../models/INewWeather';
+import RainLogo from './rainCloud.png'
+import { Day } from '../../models/INewWeather';
+import './WeatherCardStyles.css'
 
 export function WeatherCard({day,temp,nextDay,nextDayTemp}: any)
 {
